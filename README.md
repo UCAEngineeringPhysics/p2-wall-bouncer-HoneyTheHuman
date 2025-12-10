@@ -69,6 +69,8 @@ Major required components are listed below:
    - (10%) If the accumulated `WORK MODE` time exceeds 45 seconds, Use 50% dutycycle of the original to be the robot's speed (Make sure the robot is still movable). 
 5. (2%) Termination. Shutdown the system after the `RED` LED blinked 5 seconds.
 
+- ![Working Code](wall_bounce.py)
+
 > [!IMPORTANT]
 > - It doesn't matter how your robot moves, but hitting a wall once during demonstration will cost 1% off your grade.
 > - Plan a good strategy of wall avoidance.
