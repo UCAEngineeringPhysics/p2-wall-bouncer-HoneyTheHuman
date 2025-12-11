@@ -86,7 +86,13 @@ Major required components are listed below:
 - Denote dimensions and locations of the wheel assembly and the caster wheel.
 - Denote locations of the mounting holes.
 - Denote dimensions of the mounting holes.
-
+- ![Base]()
+- ![Caster Wheel]()
+- ![Tire]()
+- ![Wheel]()
+- ![Motor Bracket]()
+- 
+- 
 > [!TIP]
 > - You may want to checkout TechDraw of FreeCAD. Other CAD software should have the similar tools.  
 > - Hand drawings are acceptable.
