@@ -87,7 +87,7 @@ Major required components are listed below:
 - Denote locations of the mounting holes.
 - Denote dimensions of the mounting holes.
 - ![Base]()
-- ![Caster Wheel]()
+- ![Caster Wheel](CasterWheel)
 - ![Tire](Tires)
 - ![Wheel](Tire)
 - ![Motor Bracket]()
