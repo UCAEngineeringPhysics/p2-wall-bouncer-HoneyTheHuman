@@ -89,7 +89,7 @@ Major required components are listed below:
 - ![Base]()
 - ![Caster Wheel]()
 - ![Tire]()
-- ![Wheel](Screenshot2025-12-11130334.png)
+- ![Wheel](Tire)
 - ![Motor Bracket]()
 - 
 - 
