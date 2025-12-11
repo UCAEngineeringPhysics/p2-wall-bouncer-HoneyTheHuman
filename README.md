@@ -86,7 +86,7 @@ Major required components are listed below:
 - Denote dimensions and locations of the wheel assembly and the caster wheel.
 - Denote locations of the mounting holes.
 - Denote dimensions of the mounting holes.
-- ![Base]()
+- ![Base](Base)
 - ![Caster Wheel](CasterWheel)
 - ![Tire](Tires)
 - ![Wheel](Tire)
