@@ -90,7 +90,7 @@ Major required components are listed below:
 - ![Caster Wheel](CasterWheel)
 - ![Tire](Tires)
 - ![Wheel](Tire)
-- ![Motor Bracket]()
+- ![Motor Bracket](MotorBracket)
 - 
 - 
 > [!TIP]
