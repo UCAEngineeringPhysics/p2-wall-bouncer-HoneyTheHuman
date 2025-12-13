@@ -102,7 +102,7 @@ Major required components are listed below:
 - Mark out employed signal pins' names.
 - Electronic components' values have to match your actual circuit.
 ![Motor Wiring](MotorDrivingWiring.png)
-![Sensor Wiring](wall_bounce.py)
+![Sensor Wiring](VoltageRegulator.png)
 
 
 #### 3.3 (6%) Software Design
