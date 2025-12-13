@@ -70,6 +70,8 @@ Major required components are listed below:
 5. (2%) Termination. Shutdown the system after the `RED` LED blinked 5 seconds.
 
 - ![Working Code](wall_bounce.py)
+![Video](WallBouncer.mp4)
+
 
 > [!IMPORTANT]
 > - It doesn't matter how your robot moves, but hitting a wall once during demonstration will cost 1% off your grade.
