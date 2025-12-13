@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/LMWu6GmP)
 # Project 2: Wall Bouncer
 
 ## Background
@@ -68,6 +69,10 @@ Major required components are listed below:
    - (10%) If the accumulated `WORK MODE` time exceeds 45 seconds, Use 50% dutycycle of the original to be the robot's speed (Make sure the robot is still movable). 
 5. (2%) Termination. Shutdown the system after the `RED` LED blinked 5 seconds.
 
+- ![Working Code](wall_bounce.py)
+![Video](WallBouncer.mp4)
+
+
 > [!IMPORTANT]
 > - It doesn't matter how your robot moves, but hitting a wall once during demonstration will cost 1% off your grade.
 > - Plan a good strategy of wall avoidance.
@@ -83,7 +88,13 @@ Major required components are listed below:
 - Denote dimensions and locations of the wheel assembly and the caster wheel.
 - Denote locations of the mounting holes.
 - Denote dimensions of the mounting holes.
-
+- ![Base](Base.jpg)
+- ![Caster Wheel](CasterWheel)
+- ![Tire](Tires)
+- ![Wheel](Tire)
+- ![Motor Bracket](MotorBracket)
+- 
+- 
 > [!TIP]
 > - You may want to checkout TechDraw of FreeCAD. Other CAD software should have the similar tools.  
 > - Hand drawings are acceptable.
@@ -92,11 +103,15 @@ Major required components are listed below:
 - Specify power wires using red and black wires.
 - Mark out employed signal pins' names.
 - Electronic components' values have to match your actual circuit.
+![Motor Wiring](MotorDrivingWiring.png)
+![Sensor Wiring](VoltageRegulator.png)
+
 
 #### 3.3 (6%) Software Design
 Use a [flowchart](https://en.wikipedia.org/wiki/Flowchart) or a [algorithm/pseudocode table](https://www.overleaf.com/learn/latex/Algorithms) or a [itemized list](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#lists) to explain your wall avoidance strategy.
-
+- ![Flowchart](flowchart)
 #### 3.4 (4%) Energy Efficient Path Planning 
 > The goal is using this robot to cover a rectangle-shape area.
 > Do your research, make reasonable assumptions and propose a path pattern for the robot to follow.
 > Please state why this pattern is energy efficient.  
+A suitable strategy for covering a rectangular area is a **lawnmower, or boustrophedon, path pattern**, where the robot drives straight along the full length of the rectangle, shifts sideways by one coverage width, and returns along a parallel track. This creates a set of long, alternating passes that sweep the entire region with minimal overlap. The pattern is energy efficient because straight line motion requires less power than repeated turning, and this layout limits the number of turns to two short 90 degree rotations per pass pair. It also avoids revisiting previously covered regions, reducing unnecessary travel. Aligning each pass with the longest dimension of the rectangle decreases the number of lane changes, lowering the frequency of accelerations and motor load. Together, these features give the lawnmower pattern a near-minimal total path length for rectangles, making it the most efficient option for a small drive robot.
