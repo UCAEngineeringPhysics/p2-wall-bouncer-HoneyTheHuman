@@ -101,7 +101,7 @@ Major required components are listed below:
 - Specify power wires using red and black wires.
 - Mark out employed signal pins' names.
 - Electronic components' values have to match your actual circuit.
-![Motor Wiring](wall_bounce.py)
+![Motor Wiring](MotorDrivingWiring.png)
 ![Sensor Wiring](wall_bounce.py)
 
 
