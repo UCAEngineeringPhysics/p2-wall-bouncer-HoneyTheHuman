@@ -101,6 +101,9 @@ Major required components are listed below:
 - Specify power wires using red and black wires.
 - Mark out employed signal pins' names.
 - Electronic components' values have to match your actual circuit.
+![Motor Wiring](wall_bounce.py)
+![Sensor Wiring](wall_bounce.py)
+
 
 #### 3.3 (6%) Software Design
 Use a [flowchart](https://en.wikipedia.org/wiki/Flowchart) or a [algorithm/pseudocode table](https://www.overleaf.com/learn/latex/Algorithms) or a [itemized list](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#lists) to explain your wall avoidance strategy.
